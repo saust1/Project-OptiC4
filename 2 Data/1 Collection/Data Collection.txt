@@ -1,0 +1,3 @@
+Data Collection
+Gathering Data: Collect data from various sources such as databases, files, sensors, or online repositories.
+Data Storage: Store the collected data in a format and storage system that is accessible and efficient for processing.
