@@ -1,0 +1,13 @@
+SELECT ts, name, value
+FROM history
+WHERE FIELD_ID=Ft('TREND PV') 
+AND name IN (
+'PI55020_ABB',
+'PI55560_ABB',
+'PI55004_ABB',
+'TI52014_ABB',
+'II52554_ABB',
+'VI52558B_ABB'
+)  -- Add more names as needed
+AND ts BETWEEN '9-MAY-12 0:00:00' AND '28-FEB-22 0:00:00'
+AND Period = 01:00;

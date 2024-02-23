@@ -1,0 +1,9 @@
+SELECT TS,
+    CASE WHEN Name = 'AS74550-4EthanolPP' THEN 'AS74550-4EthanolPP.Value' END AS "AS74550-4EthanolPP",
+    CASE WHEN Name = 'AS74550-4Al2O3' THEN 'AS74550-4Al2O3.Value' END AS "AS74550-4Al2O3"
+    -- Add more columns as necessary
+FROM history
+WHERE FIELD_ID=Ft('TREND RESULT') 
+  AND TS BETWEEN '09-JUL-22' AND '09-JUL-23'
+  AND request = 5
+--GROUP BY TS;

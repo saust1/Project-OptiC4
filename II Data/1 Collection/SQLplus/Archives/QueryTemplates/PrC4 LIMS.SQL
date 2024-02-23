@@ -1,0 +1,207 @@
+SELECT T1."TREND TIME",            
+    T1."TREND RESULT" AS "FB554_Octanol PPM",
+    T2."TREND RESULT" AS "FB554_Hexanol PPM",
+    T3."TREND RESULT" AS "FB554_Ethanol PPM",
+    T4."TREND RESULT" AS "FB554_Dodecanol PPM",
+    T5."TREND RESULT" AS "FB554_Decanol PPM",
+    T6."TREND RESULT" AS "FB554_Butanol PPM",
+    T7."TREND RESULT" AS "FB554_%nC8OH",
+    T8."TREND RESULT" AS "FB554_%nC6OH",
+    T9."TREND RESULT" AS "FB554_%nC20OH",
+    T10."TREND RESULT" AS "FB554_%nC18OH",
+    T11."TREND RESULT" AS "FB554_%nC16OH",
+    T12."TREND RESULT" AS "FB554_%nC14OH",
+    T13."TREND RESULT" AS "FB554_%nC12OH",
+    T14."TREND RESULT" AS "FB554_%nC10OH",
+    T15."TREND RESULT" AS "FB554_%C2OH",
+    T16."TREND RESULT" AS "FB554_%Al2O3_bM",
+    T17."TREND RESULT" AS "FB554_%>C5",
+    T18."TREND RESULT" AS "FB554_%<C5",
+    T19."TREND RESULT" AS "C4 Twr Btms_%nC8OH",
+    T20."TREND RESULT" AS "C4 Twr Btms_%nC6OH",
+    T21."TREND RESULT" AS "C4 Twr Btms_%npC4OH",
+    T22."TREND RESULT" AS "C4 Twr Btms_%nC30OH",
+    T23."TREND RESULT" AS "C4 Twr Btms_%nC28OH",
+    T24."TREND RESULT" AS "C4 Twr Btms_%nC26OH",
+    T25."TREND RESULT" AS "C4 Twr Btms_%nC24OH",
+    T26."TREND RESULT" AS "C4 Twr Btms_%nC22OH",
+    T27."TREND RESULT" AS "C4 Twr Btms_%nC20OH",
+    T28."TREND RESULT" AS "C4 Twr Btms_%nC18OH",
+    T29."TREND RESULT" AS "C4 Twr Btms_%nC16OH",
+    T30."TREND RESULT" AS "C4 Twr Btms_%nC14OH",
+    T31."TREND RESULT" AS "C4 Twr Btms_%nC12OH",
+    T32."TREND RESULT" AS "C4 Twr Btms_%nC10OH",
+    T33."TREND RESULT" AS "C4 Twr Btms_%H2O",
+    T34."TREND RESULT" AS "C4 Twr Btms_%C9",
+    T35."TREND RESULT" AS "C4 Twr Btms_%C7",
+    T36."TREND RESULT" AS "C4 Twr Btms_%C5",
+    T37."TREND RESULT" AS "C4 Twr Btms_%C2OH",
+    T38."TREND RESULT" AS "C4 Twr Btms_%C17",
+    T39."TREND RESULT" AS "C4 Twr Btms_%C15",
+    T40."TREND RESULT" AS "C4 Twr Btms_%C13",
+    T41."TREND RESULT" AS "C4 Twr Btms_%C11",
+    T42."TREND RESULT" AS "C4 Twr Btms_%brC8OH",
+    T43."TREND RESULT" AS "C4 Twr Btms_%brC6OH",
+    T44."TREND RESULT" AS "C4 Twr Btms_%brC4OH",
+    T45."TREND RESULT" AS "C4 Twr Btms_%brC30OH",
+    T46."TREND RESULT" AS "C4 Twr Btms_%brC28OH",
+    T47."TREND RESULT" AS "C4 Twr Btms_%brC26OH",
+    T48."TREND RESULT" AS "C4 Twr Btms_%brC24OH",
+    T49."TREND RESULT" AS "C4 Twr Btms_%brC22OH",
+    T50."TREND RESULT" AS "C4 Twr Btms_%brC20OH",
+    T51."TREND RESULT" AS "C4 Twr Btms_%brC18OH",
+    T52."TREND RESULT" AS "C4 Twr Btms_%brC16OH",
+    T53."TREND RESULT" AS "C4 Twr Btms_%brC14OH",
+    T54."TREND RESULT" AS "C4 Twr Btms_%brC12OH",
+    T55."TREND RESULT" AS "C4 Twr Btms_%brC10OH",
+    T56."TREND RESULT" AS "C4 Twr Btms_%M-Value",
+    T57."TREND RESULT" AS "Rxtor Slurry_%Al2O3_bM",
+    T58."TREND RESULT" AS "Hydrolysis Water_pH",
+    T59."TREND RESULT" AS "Hydrolysis Water_ppmNa2O",
+    T60."TREND RESULT" AS "Hydrolysis Water_%NH4OH",
+    T61."TREND RESULT" AS "Incoming Extract C4_%nC6OH",
+    T62."TREND RESULT" AS "Incoming Extract C4_%nC4OH",
+    T63."TREND RESULT" AS "Incoming Extract C4_%H2O",
+    T64."TREND RESULT" AS "Incoming Extract C4_%C2OH",
+    T65."TREND RESULT" AS "12c (Comp) Al2O3_ppmNa2O",
+    T66."TREND RESULT" AS "12c (Comp) Al2O3_%Carbon",
+    T67."TREND RESULT" AS "12c (Comp) Al2O3_%Al2O3",
+    T68."TREND RESULT" AS "12S (Grab) Al2O3_%Al2O3"
+
+FROM "AS74550-4OctanolPP".1 as T1,
+    "AS74550-4HexanolPP".1 as T2,
+    "AS74550-4EthanolPP".1 as T3,
+    "AS74550-4DodecanPP".1 as T4,
+    "AS74550-4DecanolPP".1 as T5,
+    "AS74550-4ButanolPP".1 as T6,
+    "AS74550-4%nC8OH".1 as T7,
+    "AS74550-4%nC6OH".1 as T8,
+    "AS74550-4%nC20OH".1 as T9,
+    "AS74550-4%nC18OH".1 as T10,
+    "AS74550-4%nC16OH".1 as T11,
+    "AS74550-4%nC14OH".1 as T12,
+    "AS74550-4%nC12OH".1 as T13,
+    "AS74550-4%nC10OH".1 as T14,
+    "AS74550-4%C2OH".1 as T15,
+    "AS74550-4%Al2O3".1 as T16,
+    "AS74550-4%>C5".1 as T17,
+    "AS74550-4%<C5".1 as T18,
+    "AS74550-10%nC8OH".1 as T19,
+    "AS74550-10%nC6OH".1 as T20,
+    "AS74550-10%nC4OH".1 as T21,
+    "AS74550-10%nC30OH".1 as T22,
+    "AS74550-10%nC28OH".1 as T23,
+    "AS74550-10%nC26OH".1 as T24,
+    "AS74550-10%nC24OH".1 as T25,
+    "AS74550-10%nC22OH".1 as T26,
+    "AS74550-10%nC20OH".1 as T27,
+    "AS74550-10%nC18OH".1 as T28,
+    "AS74550-10%nC16OH".1 as T29,
+    "AS74550-10%nC14OH".1 as T30,
+    "AS74550-10%nC12OH".1 as T31,
+    "AS74550-10%nC10OH".1 as T32,
+    "AS74550-10%H2O".1 as T33,
+    "AS74550-10%C9".1 as T34,
+    "AS74550-10%C7".1 as T35,
+    "AS74550-10%C5".1 as T36,
+    "AS74550-10%C2OH".1 as T37,
+    "AS74550-10%C17".1 as T38,
+    "AS74550-10%C15".1 as T39,
+    "AS74550-10%C13".1 as T40,
+    "AS74550-10%C11".1 as T41,
+    "AS74550-10%brC8OH".1 as T42,
+    "AS74550-10%brC6OH".1 as T43,
+    "AS74550-10%brC4OH".1 as T44,
+    "AS74550-10%brC30OH".1 as T45,
+    "AS74550-10%brC28OH".1 as T46,
+    "AS74550-10%brC26OH".1 as T47,
+    "AS74550-10%brC24OH".1 as T48,
+    "AS74550-10%brC22OH".1 as T49,
+    "AS74550-10%brC20OH".1 as T50,
+    "AS74550-10%brC18OH".1 as T51,
+    "AS74550-10%brC16OH".1 as T52,
+    "AS74550-10%brC14OH".1 as T53,
+    "AS74550-10%brC12OH".1 as T54,
+    "AS74550-10%brC10OH".1 as T55,
+    "AS74550-10%M-Value".1 as T56,
+    "AS74550-1%Al2O3".1 as T57,
+    "AS74550-5%pH".1 as T58,
+    "AS74550-5ppmNa2O".1 as T59,
+    "AS74550-5%NH4OH".1 as T60,
+    "AS74550-25%nC6OH".1 as T61,
+    "AS74550-25%nC4OH".1 as T62,
+    "AS74550-25%H2O".1 as T63,
+    "AS74550-25%C2OH".1 as T64,
+    "AS74550-14ppmNa2O".1 as T65,
+    "AS74550-14%Carbon".1 as T66,
+    "AS74550-14%Al2O3".1 as T67,
+    "AS74550-13%Al2O3".1 as T68
+
+WHERE T1."TREND TIME" BETWEEN '01-JUN-23' and current_timestamp
+    and (T2."TREND TIME" = T1."TREND TIME")
+    and (T3."TREND TIME" = T1."TREND TIME")
+    and (T4."TREND TIME" = T1."TREND TIME")
+    and (T5."TREND TIME" = T1."TREND TIME")
+    and (T6."TREND TIME" = T1."TREND TIME")
+    and (T7."TREND TIME" = T1."TREND TIME")
+    and (T8."TREND TIME" = T1."TREND TIME")
+    and (T9."TREND TIME" = T1."TREND TIME")
+    and (T10."TREND TIME" = T1."TREND TIME")
+    and (T11."TREND TIME" = T1."TREND TIME")
+    and (T12."TREND TIME" = T1."TREND TIME")
+    and (T13."TREND TIME" = T1."TREND TIME")
+    and (T14."TREND TIME" = T1."TREND TIME")
+    and (T15."TREND TIME" = T1."TREND TIME")
+    and (T16."TREND TIME" = T1."TREND TIME")
+    and (T17."TREND TIME" = T1."TREND TIME")
+    and (T18."TREND TIME" = T1."TREND TIME")
+    and (T19."TREND TIME" = T1."TREND TIME")
+    and (T20."TREND TIME" = T1."TREND TIME")
+    and (T21."TREND TIME" = T1."TREND TIME")
+    and (T22."TREND TIME" = T1."TREND TIME")
+    and (T23."TREND TIME" = T1."TREND TIME")
+    and (T24."TREND TIME" = T1."TREND TIME")
+    and (T25."TREND TIME" = T1."TREND TIME")
+    and (T26."TREND TIME" = T1."TREND TIME")
+    and (T27."TREND TIME" = T1."TREND TIME")
+    and (T28."TREND TIME" = T1."TREND TIME")
+    and (T29."TREND TIME" = T1."TREND TIME")
+    and (T30."TREND TIME" = T1."TREND TIME")
+    and (T31."TREND TIME" = T1."TREND TIME")
+    and (T32."TREND TIME" = T1."TREND TIME")
+    and (T33."TREND TIME" = T1."TREND TIME")
+    and (T34."TREND TIME" = T1."TREND TIME")
+    and (T35."TREND TIME" = T1."TREND TIME")
+    and (T36."TREND TIME" = T1."TREND TIME")
+    and (T37."TREND TIME" = T1."TREND TIME")
+    and (T38."TREND TIME" = T1."TREND TIME")
+    and (T39."TREND TIME" = T1."TREND TIME")
+    and (T40."TREND TIME" = T1."TREND TIME")
+    and (T41."TREND TIME" = T1."TREND TIME")
+    and (T42."TREND TIME" = T1."TREND TIME")
+    and (T43."TREND TIME" = T1."TREND TIME")
+    and (T44."TREND TIME" = T1."TREND TIME")
+    and (T45."TREND TIME" = T1."TREND TIME")
+    and (T46."TREND TIME" = T1."TREND TIME")
+    and (T47."TREND TIME" = T1."TREND TIME")
+    and (T48."TREND TIME" = T1."TREND TIME")
+    and (T49."TREND TIME" = T1."TREND TIME")
+    and (T50."TREND TIME" = T1."TREND TIME")
+    and (T51."TREND TIME" = T1."TREND TIME")
+    and (T52."TREND TIME" = T1."TREND TIME")
+    and (T53."TREND TIME" = T1."TREND TIME")
+    and (T54."TREND TIME" = T1."TREND TIME")
+    and (T55."TREND TIME" = T1."TREND TIME")
+    and (T56."TREND TIME" = T1."TREND TIME")
+    and (T57."TREND TIME" = T1."TREND TIME")
+    and (T58."TREND TIME" = T1."TREND TIME")
+    and (T59."TREND TIME" = T1."TREND TIME")
+    and (T60."TREND TIME" = T1."TREND TIME")
+    and (T61."TREND TIME" = T1."TREND TIME")
+    and (T62."TREND TIME" = T1."TREND TIME")
+    and (T63."TREND TIME" = T1."TREND TIME")
+    and (T64."TREND TIME" = T1."TREND TIME")
+    and (T65."TREND TIME" = T1."TREND TIME")
+    and (T66."TREND TIME" = T1."TREND TIME")
+    and (T67."TREND TIME" = T1."TREND TIME")
+    and (T68."TREND TIME" = T1."TREND TIME")

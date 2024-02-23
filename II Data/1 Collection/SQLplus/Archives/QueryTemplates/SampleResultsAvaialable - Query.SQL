@@ -1,0 +1,4 @@
+SELECT DESCRIPTION, NAME AS TAGS, "Result NAME", IP_ENG_UNITS, FIXEDCOM_LAST_UPDATE   
+From LIMSAnalogDef 
+WHERE name LIKE '********%'
+--ORDER BY Description
