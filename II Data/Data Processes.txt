@@ -1,0 +1,13 @@
+Data Collection
+Gathering Data: Collect data from various sources such as databases, files, sensors, or online repositories.
+Data Storage: Store the collected data in a format and storage system that is accessible and efficient for processing.
+
+Data Preprocessing
+Data Cleaning: Remove or correct missing, noisy, or inconsistent data.
+Data Transformation: Transform data into a suitable format for analysis, including normalization, scaling, and encoding categorical variables.
+Feature Engineering: Create new features from the existing data to improve model performance.
+
+Exploratory Data Analysis (EDA)
+Statistical Analysis: Perform statistical tests to understand the data's distribution, variance, and central tendencies.
+Visualization: Use plots and charts to discover patterns, trends, and anomalies in the data.
+Data Insights: Gain insights that can inform the subsequent steps of model building and feature selection.
